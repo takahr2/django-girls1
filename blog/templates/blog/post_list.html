@@ -10,7 +10,7 @@
         {% for post in posts %}
 
             <div>
-                <p>published: {{post.publish_date}}
+                <p>published: {{ post.published_date  }}
                     <h2><a href="">{{ post.title }}</a></h2>
                     <p>{{ post.text|linebreaksbr }}</p>
                 </p>    
